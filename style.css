@@ -1,0 +1,170 @@
+body {
+	background: #f4f4f4;
+	font-family: Arial, Helvetica, sans-sertif;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background: #35424a;
+	color: #fff;
+	height: 80px;
+	padding: 10px;
+	border-bottom: 3px solid #e8491d;
+}
+
+.container {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.logo {
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.logo a {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.logo span {
+	color: #e8491d;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 50px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.menu a:hover {
+	color: #cccccc;
+}
+
+.slide {
+	background: url('image/slide.jpg');
+	min-height: 400px;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+
+}
+
+.slide .p1 {
+	font-size: 50px;
+}
+
+.slide .p2 {
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.subscribe {
+	background: #35424a;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.subscribe .letter {
+	float: left;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.subscribe .sform {
+	float: right;
+}
+
+.sform input {
+	width: 300px;
+	height: 45px;
+	background: white;
+	border: none;
+	padding: 10px
+}
+
+button {
+	width: 100px;
+	height: 45px;
+	background: #e8491d;
+	color: white;
+	border: none;
+}
+
+.product {
+	background: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.col {
+	width: 32%;
+	padding: 20px;
+	float: left;
+
+}
+
+.col img {
+	width: 100px;
+}
+
+.col p {
+	line-height: 25px;
+}
+
+footer {
+	background: #e8491d;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.amain {
+	padding: 30px;
+	float: left;
+	width: 70%;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.a-left {
+	padding: 30px;
+	float: left;
+	width: 30%;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.p3 {
+	background: #35424a;
+	color: white;
+	padding: 20px;
+}
+
+.p5 {
+	font-size: 50px;
+	text-align: justify;
+}
